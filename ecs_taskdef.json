@@ -1,12 +1,12 @@
 {
-    "family": "",
+    "family": "website-family",
     "taskRoleArn": "",
     "executionRoleArn": "",
     "networkMode": "bridge",
     "containerDefinitions": [
         {
             "name": "website-container",
-            "image": "",
+            "image": "891270320145.dkr.ecr.ap-southeast-1.amazonaws.com/website",
             "repositoryCredentials": {
                 "credentialsParameter": ""
             },
