@@ -3,7 +3,8 @@
     "containerDefinitions": [
         {
             "name": "website-container",
-            "image": "891270320145.dkr.ecr.ap-southeast-1.amazonaws.com/website"
+            "image": "891270320145.dkr.ecr.ap-southeast-1.amazonaws.com/website",
+            "memory": 50
         }
     ]
 }
