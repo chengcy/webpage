@@ -1,5 +1,6 @@
 {
     "family": "website-family",
+    "networkMode": "awsvpc",
     "containerDefinitions": [
         {
             "name": "website-container",
@@ -7,7 +8,8 @@
             "memory": 50,
             "portMappings": [
                 {
-                    "containerPort": 80
+                    "containerPort": 80,
+                    "hostPort": 4000
                 }
             ]
         }
