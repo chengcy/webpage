@@ -13,4 +13,8 @@
             ]
         }
     ]
+    "proxyConfiguration": {
+        "type": "APPMESH",
+        "containerName": "website-container"
+    }
 }
