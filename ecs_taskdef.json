@@ -1,16 +1,12 @@
 {
     "family": "website-family",
+    "containerName": "website-container",
+    "containerPort": 80,
     "containerDefinitions": [
         {
             "name": "website-container",
             "image": "891270320145.dkr.ecr.ap-southeast-1.amazonaws.com/website",
             "memory": 50
-        }
-    ],
-    "ServiceRegistry": [
-        {
-            "containerName": "website-container",
-            "containerPort": 80
         }
     ]
 }
