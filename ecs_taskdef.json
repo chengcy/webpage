@@ -1,5 +1,7 @@
 {
     "family": "website-family",
+    "taskRoleArn": "arn:aws:iam::891270320145:role/ecsTaskExecutionRole",
+    "executionRoleArn": "arn:aws:iam::891270320145:role/ecsTaskExecutionRole",
     "containerDefinitions": [
         {
             "name": "website-container",
@@ -12,9 +14,5 @@
                 }
             ]
         }
-    ],
-    "proxyConfiguration": {
-        "type": "APPMESH",
-        "containerName": "website-container"
-    }
+    ]
 }
